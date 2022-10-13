@@ -1,0 +1,49 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+
+}
+
+html{
+    font-family: 'Fredoka', sans-serif;
+}
+
+main{
+    width: 65%;
+    text-align: center;
+    margin: 0 auto;
+}
+
+div.title-section>h1{
+    padding-top: 2rem;
+    color: #e53170;
+    font-weight: bold;
+}
+
+div.subtitle-section p {
+    margin: 2rem;
+}
+
+div.col{
+    background-color: #aea3ff;
+    width: calc(100% / 4)
+}
+
+
+.float-left{
+    float: left;
+}
+
+.clearfix::after{
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.img-section img{
+    height: 6rem;
+ 
+    
+}
+
